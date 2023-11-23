@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylo.css">
+    <script src="js.js"></script>
+    <title>CALCULADORA</title>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <div class="header">
+            <h3>Calculadora</h3>
+        </div>
+    
+        <div class="input-section">
+            <label for="VALOR1">VALORES 1:
+                <input type="valores1" name="valores1" id="valores1" placeholder="Ingrese un número">
+            </label>
+            <label for="valores2">VALORES 2:
+                <input type="valores1" name="valores2" id="valores2" placeholder="Ingrese un número">
+            </label>
+            <label for="RESULTADO">RESULTADO
+                <input type="nvalores1" name="resultado" id="resultado" disabled placeholder="0.0">
+            </label>
+        </div>
+    
+        <div class="button-section">
+            <button onclick="sumas()">+</button>
+            <button onclick="restas()">-</button>
+            <button onclick="multiplicacion()">X</button>
+            <button onclick="divisiones()">%</button>
+        </div><button onclick="eliminando_numeros()" class="eliminando-numeros">eliminar-numeros</button>
+          
+        </div>
+    </div>
+    
+
+
+</body>
+
+</html>
